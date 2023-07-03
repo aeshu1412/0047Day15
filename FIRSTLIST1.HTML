@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#h1").click(function(){
+    $("#t1").hide();
+  });
+});
+$(document).ready(function(){
+  $("#h2").click(function(){
+    $("#t2").hide();
+  });
+});
+</script>
+</head>
+<body>
+
+<h2 >This is a heading</h2>
+
+<p >list 1:</p>
+<ul id="t2">
+    <li>TEA </li>
+    <li>COFFEE</li>
+    <li>CHOCOLATE</li>
+    <li>ICE CREAM</li>
+
+</ul>
+<button id="h2">Click li2</button>
+<p >list 2:</p>
+<ul id="t1">
+    <li>TEA </li>
+    <li>COFFEE</li>
+    <li>CHOCOLATE</li>
+    <li>ICE CREAM</li>
+
+</ul>
+
+<button id="h1">Click li1</button>
+
+
+
+
+</body>
+</html>
